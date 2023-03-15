@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_message"
+            android:title="Message"
+            android:icon="@drawable/ic_message"/>
+        <item
+            android:id="@+id/drawer_chat"
+            android:title="Chat"
+            android:icon="@mipmap/ic_launcher"/>
+        <item
+            android:id="@+id/drawer_profile"
+            android:title="Profile"
+            android:icon="@mipmap/ic_launcher"/>
+    </group>
+    <item
+        android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/drawer_communicate_share"
+                android:title="Share"
+                android:icon="@mipmap/ic_launcher"/>
+            <item
+                android:id="@+id/drawer_communicate_send"
+                android:title="Send"
+                android:icon="@mipmap/ic_launcher"/>
+        </menu>
+    </item>
+</menu>
