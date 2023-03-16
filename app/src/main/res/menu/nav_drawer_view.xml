@@ -9,11 +9,11 @@
         <item
             android:id="@+id/drawer_chat"
             android:title="Chat"
-            android:icon="@mipmap/ic_launcher"/>
+            android:icon="@drawable/ic_message"/>
         <item
             android:id="@+id/drawer_profile"
             android:title="Profile"
-            android:icon="@mipmap/ic_launcher"/>
+            android:icon="@drawable/ic_message"/>
     </group>
     <item
         android:title="Communicate">
@@ -21,11 +21,11 @@
             <item
                 android:id="@+id/drawer_communicate_share"
                 android:title="Share"
-                android:icon="@mipmap/ic_launcher"/>
+                android:icon="@drawable/ic_message"/>
             <item
                 android:id="@+id/drawer_communicate_send"
                 android:title="Send"
-                android:icon="@mipmap/ic_launcher"/>
+                android:icon="@drawable/ic_message"/>
         </menu>
     </item>
 </menu>
